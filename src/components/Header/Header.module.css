@@ -1,0 +1,22 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    min-height: 80px;
+    z-index: 15;
+    background: transparent;
+    padding: 45px;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: black;
+    color: #FFF;
+    height: 40px;
+    border: unset;
+    border-radius: 12px;
+    cursor: pointer;
+}

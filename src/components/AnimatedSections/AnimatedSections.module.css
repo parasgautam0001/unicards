@@ -1,0 +1,42 @@
+.sectionContainer {
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .125);
+    height: 64px;
+    opacity: 0;
+    transform: translate(0, 50%);
+    visibility: hidden;
+    transition: opacity 300ms ease-out, transform 300ms ease-out;
+    will-change: opacity, visibility;
+    height:60vh;
+  }
+  
+  .isvisible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+    display: flex; 
+  }
+
+  .animatedText {
+    font-size: 30px;
+    font-weight: bold;
+    height: 20vh;
+    animation: fade-in 6s;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 100;
+    }
+  }
+  
+
+  .indiSections {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
